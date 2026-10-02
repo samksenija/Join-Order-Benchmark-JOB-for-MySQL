@@ -1,0 +1,148 @@
+USE job;
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/aka_name.csv'
+INTO TABLE aka_name
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/aka_title.csv'
+INTO TABLE aka_title
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/cast_info.csv'
+INTO TABLE cast_info
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/char_name.csv'
+INTO TABLE char_name
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/comp_cast_type.csv'
+INTO TABLE comp_cast_type
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/company_name.csv'
+INTO TABLE company_name
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/company_type.csv'
+INTO TABLE company_type
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/complete_cast.csv'
+INTO TABLE complete_cast
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/info_type.csv'
+INTO TABLE info_type
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/keyword.csv'
+INTO TABLE keyword
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/kind_type.csv'
+INTO TABLE kind_type
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/link_type.csv'
+INTO TABLE link_type
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/movie_companies.csv'
+INTO TABLE movie_companies
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/movie_info.csv'
+INTO TABLE movie_info
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/movie_info_idx.csv'
+INTO TABLE movie_info_idx
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/movie_keyword.csv'
+INTO TABLE movie_keyword
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/movie_link.csv'
+INTO TABLE movie_link
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/name.csv'
+INTO TABLE name
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/person_info.csv'
+INTO TABLE person_info
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/role_type.csv'
+INTO TABLE role_type
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';
+
+LOAD DATA LOCAL INFILE 'C:/Users/pavle/OneDrive/Desktop/csv/title.csv'
+INTO TABLE title
+FIELDS TERMINATED BY '|'
+OPTIONALLY ENCLOSED BY '"'
+ESCAPED BY '\\'
+LINES TERMINATED BY '\n';

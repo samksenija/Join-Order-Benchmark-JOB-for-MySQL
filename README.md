@@ -2,6 +2,7 @@
 
 Benchmark was downloaded from https://zenodo.org/records/19205561?utm_source=chatgpt.com.
 
+Queries: https://github.com/gregrahn/join-order-benchmark
 
 
 ## MySQL Load Data from csv Files

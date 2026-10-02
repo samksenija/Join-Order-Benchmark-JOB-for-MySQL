@@ -27,3 +27,19 @@ Look for the connection options and add:
 `OPT_LOCAL_INFILE=1`
 
 Then reconnect.
+
+------
+
+If the connection is being killed after 30 seconds
+
+In Workbench, check:
+
+Edit → Preferences → SQL Editor
+
+and look for:
+
+DBMS connection read timeout
+DBMS connection timeout
+query timeout
+
+Set the relevant timeout to something substantially larger, e.g. 300 seconds, or 0 if your version supports unlimited.

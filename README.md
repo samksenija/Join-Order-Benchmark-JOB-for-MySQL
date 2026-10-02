@@ -28,7 +28,7 @@ Look for the connection options and add:
 
 Then reconnect.
 
-------
+## MySQL Workbench Timeout
 
 If the connection is being killed after 30 seconds
 
